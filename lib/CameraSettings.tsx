@@ -16,8 +16,7 @@ import { isLocalTrack, LocalTrackPublication, Track } from 'livekit-client';
 //  { name: 'Desk', path: Desk },
 //  { name: 'Nature', path: Nature },
 //];
-const BACKGROUND_IMAGES: { name: string; path: string }[] = [];
-
+const BACKGROUND_IMAGES: { name: string; path: { src: string } }[] = [];
 
 // Background options
 type BackgroundType = 'none' | 'blur' | 'image';
