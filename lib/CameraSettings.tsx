@@ -16,6 +16,8 @@ const BACKGROUND_IMAGES = [
   { name: 'Desk', path: Desk },
   { name: 'Nature', path: Nature },
 ];
+const BACKGROUND_IMAGES: { name: string; path: string }[] = [];
+
 
 // Background options
 type BackgroundType = 'none' | 'blur' | 'image';
